@@ -154,7 +154,7 @@ function AssetManager() {
 
 	});
 
-	gltfLoader.load('https://edelweiss-game.s3.eu-west-3.amazonaws.com/models/edelweiss.glb', (glb)=> {
+	gltfLoader.load('https://github.com/dataexplora/elondodgers/raw/refs/heads/master/public/assets/models/Futuristic_Commander_0105153457_texture.glb', (glb)=> {
 
 		createMultipleModels(
 			glb,
@@ -168,7 +168,7 @@ function AssetManager() {
 
 	});
 
-	gltfLoader.load('https://edelweiss-game.s3.eu-west-3.amazonaws.com/hero.glb', (glb)=> {
+	gltfLoader.load('https://github.com/dataexplora/elondodgers/raw/refs/heads/master/public/assets/models/Futuristic_Commander_0105153457_texture.glb', (glb)=> {
 
 		charGlb = glb;
 
